@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Olá Mundo!</h1>
+    </div>
+
+    <button id="mostrar">Exibir</button>
+    
+    <script src="jquery.js"></script>
+    <script>
+        // let div = document.querySelector('div')
+        // div.style.display = "none";
+
+        // $('.container').hide();
+
+        // let button = document.querySelector("#mostrar")
+
+        // button.onclick = function(){
+        //     div.style.display = "block"
+        // }
+
+        // $('#mostrar').click(function () {
+        //     $('.container').slideDown(5000);
+        // })
+
+        // let div = $('div')
+        // $('#mostrar').click(function () {
+        //     $('.container').toggle(3000);
+        // })
+
+        $('.container').hide(); 
+        $('#mostrar').click(function () {
+            $('.container').fadeIn(3000);
+        })
+
+
+    </script>
+</body>
+</html>

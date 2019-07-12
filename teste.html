@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/1280px-Machu_Picchu,_Peru.jpg" alt="machu" id="n1">
+        <img src="img/167862.jpg" alt="woods" id="n2">
+        <img src="img/250357.jpg" alt="castelo" id="n3">
+        <img src="img/574076.jpg" alt="moon" id="n4">
+        <img src="img/melhor_praia_zakynthos_02.jpg" alt="greece" id="n5">
+    </div>
+    <div>
+            <button id="btn1">Exibir</button>
+            <button id="btn2">Exibir</button>
+            <button id="btn3">Exibir</button>
+            <button id="btn4">Exibir</button>
+            <button id="btn5">Exibir</button>
+    </div>
+
+
+
+    <script src="jquery.js"></script>
+        <script>
+            $('#btn1').click(function (){
+                $('#n1').fadeIn(3000);
+                $('#n2').hide();
+                $('#n3').hide();
+                $('#n4').hide();
+                $('#n5').hide();
+            })
+            $('#btn2').click(function (){
+                $('#n2').fadeIn(3000);
+                $('#n1').hide();
+                $('#n3').hide();
+                $('#n4').hide();
+                $('#n5').hide();
+            })
+            $('#btn3').click(function (){
+                $('#n3').fadeIn(3000);
+                $('#n1').hide();
+                $('#n2').hide();
+                $('#n4').hide();
+                $('#n5').hide();
+            })
+            $('#btn4').click(function (){
+                $('#n4').fadeIn(3000);
+                $('#n1').hide();
+                $('#n2').hide();
+                $('#n3').hide();
+                $('#n5').hide();
+            })
+            $('#btn5').click(function (){
+                $('#n5').fadeIn(3000);
+                $('#n1').hide();
+                $('#n2').hide();
+                $('#n3').hide();
+                $('#n4').hide();
+            })
+
+        
+        
+        </script>
+</body>
+</html>
